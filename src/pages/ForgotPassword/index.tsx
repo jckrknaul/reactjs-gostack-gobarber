@@ -3,7 +3,7 @@ import { FiLogIn, FiMail } from 'react-icons/fi';
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
 import { FormHandles } from '@unform/core';
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Container, Content, Background, AnimationContainer } from './styles';
 
 import api from '../../services/api';
